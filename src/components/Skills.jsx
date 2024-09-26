@@ -1,7 +1,9 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import bg from "../assets/img/footer-bg.png";
 import Carousel from "react-multi-carousel";
+
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
@@ -36,10 +38,11 @@ export default function Skills() {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consequuntur deleniti ullam enim incidunt cumque, dolorum
-                cupiditate, accusantium placeat illo atque beatae voluptate vero
-                voluptatum? Numquam debitis voluptatem molestiae hic nisi.
+                Con mis skills de programación en UX/UI y desarrollo web,
+                especialmente en el stack MERN, puedo crear experiencias de
+                usuario intuitivas y soluciones tecnológicas innovadoras que
+                optimicen tanto la funcionalidad como la estética de los
+                productos digitales.
               </p>
               <Carousel
                 responsive={responsive}
@@ -64,7 +67,6 @@ export default function Skills() {
           </Col>
         </Row>
       </Container>
-      <img src="background-image" alt="bg" />
     </section>
   );
 }
